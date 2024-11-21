@@ -70,54 +70,17 @@ body {
 
 .current-song img {
   width: 100%;
-  height: 100%;
-  border: 0.5rem solid rgba(255, 255, 255, 0.15);
-  border-radius: 10%;
   box-shadow: 0.6rem 0.6rem 4rem -0.1rem rgba(0, 0, 0, 0.9),
     -0.6rem -0.6rem 4rem -0.2rem rgba(255, 255, 255, 0.4);
 }
-.rotate {
-  animation: coverRotate 10s linear infinite;
-}
 
-@keyframes coverRotate {
-  0% {
-    transform: rotateZ(0);
-  }
-
-  100% {
-    transform: rotateZ(360deg);
-  }
-}
-
-.cover span {
-  font-family: "Delicious Handrawn", cursive;
-  position: absolute;
-  display: block;
-}
-
-.cover span:nth-child(1) {
-  color: #ddd;
-  font-size: 1.6rem;
-  top: 20%;
-  left: 30%;
-}
-
-.cover span:nth-child(2) {
-  color: #fff;
-  font-size: 2.5rem;
-  top: 35%;
-  left: 20%;
-  width: 10rem;
-  text-align: center;
-}
 
 .song-info {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem; /* فاصله کمتر */
+  margin-bottom: 4rem;
 }
 
 .song-details {

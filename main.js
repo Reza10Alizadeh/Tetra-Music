@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     container: "#waveform",
     waveColor: "#ddd",
     progressColor: "#a1a6a5",
-    url: "music/Dorcci.mp3",
+    url: "music/Kourosh Yaghmaei - Paiz (online-audio-converter.com).mp3",
     borderWidth: 4,
     responsive: true,
     height: 60,
