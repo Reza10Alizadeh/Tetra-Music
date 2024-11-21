@@ -123,10 +123,10 @@ body {
     -0.8rem -0.8rem 2rem -0.1rem rgba(255, 255, 255, 0.4);
 }
 .footer img{
-  padding-top: 1.5rem;
+ margin-top: -2rem;
   opacity: 75%;
-  margin-left: 35%;
-  width: 30%;
+  margin-left: 25%;
+  width: 50.8%;
 }
 body.dark-mode {
   background: #ddd;
